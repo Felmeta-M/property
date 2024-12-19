@@ -17,10 +17,15 @@ $ git clone []
 
 ## add env
 
+```bash
 MONGO_URL = mongodb://localhost:27017/property
+
 JWT_SECRET = property
+
 PORT = 3000
-TENANT_HEADER=X-Tenant-ID
+
+TENANT_HEADER = X-Tenant-ID
+```
 
 ## Compile and run the project
 
